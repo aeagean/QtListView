@@ -18,12 +18,12 @@ public:
 
 protected:
     const QList<M *> getItemList();
-    void notifyAppend(M *item);
-    void notifyRemove(int index);
-    void notifyResetList(QList<M *> & itemList);
+    void appendItem(M *item);
+    void removeItem(int index);
+    void resetList(QList<M *> & itemList);
 
 private:
-    QList<M *> m_itemList;
+    QList<M *> m_list;
 };
 
 #include "QtListViewImpl.h"
