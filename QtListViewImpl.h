@@ -78,7 +78,7 @@ void QtListView<M>::removeItem(int index)
 }
 
 template <class M>
-void QtListView<M>::resetListS(QList<M *> & itemList)
+void QtListView<M>::resetList(QList<M *> & itemList)
 {
     for (int i = 0; (i < m_list.size()) && (i < itemList.size()); i++) {
         *m_list.at(i) = *itemList.at(i);
