@@ -10,7 +10,6 @@ public:
     QtListView(QObject* parent = 0) : BaseListModel(parent) { }
 
     QVariant at(int index);
-    QVariant last();
     int size();
 
     int rowCount(const QModelIndex &parent = QModelIndex()) const;

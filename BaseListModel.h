@@ -15,10 +15,6 @@ public:
         : QAbstractListModel(parent) {
     }
 
-    Q_INVOKABLE virtual QVariant at(int index) = 0;
-    Q_INVOKABLE virtual QVariant last() = 0;
-    Q_INVOKABLE virtual int size() = 0;
-
 private:
     QHash<int,QByteArray> roleNames() const {
         QHash<int, QByteArray> roles;

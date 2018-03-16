@@ -31,16 +31,6 @@ QVariant QtListView<M>::at(int index)
     return QVariant::fromValue((QObject *) m_list.at(index));
 }
 
-
-template <class M>
-QVariant QtListView<M>::last()
-{
-    if (m_list.size() > 0) {
-        return QVariant::fromValue((QObject *)m_list.last());
-    }
-    return QVariant();
-}
-
 template <class M>
 int QtListView<M>::size()
 {
