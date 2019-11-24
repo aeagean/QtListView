@@ -1,3 +1,11 @@
+﻿/**********************************************************
+ * Author: Qt君
+ * 微信公众号: Qt君(首发)
+ * Website: qtbig.com(后续更新)
+ * Email:  2088201923@qq.com
+ * QQ交流群: 732271126
+ * LISCENSE: MIT
+ ************************************************************/
 #ifndef CPP_BASE_ITEM_MODEL_H
 #define CPP_BASE_ITEM_MODEL_H
 
